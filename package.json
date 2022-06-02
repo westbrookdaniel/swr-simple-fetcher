@@ -1,18 +1,16 @@
 {
     "name": "swr-simple-fetcher",
-    "files": [
-        "dist"
-    ],
+    "version": "1.0.0",
+    "author": "Daniel Westbrook <westy12dan@gmail.com>",
+    "description": "A simple fetcher for swr",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/westbrookdaniel/swr-simple-fetcher.git"
+    },
+    "license": "MIT",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
-    "exports": {
-        ".": {
-            "import": "./dist/index.mjs",
-            "require": "./dist/index.js"
-        }
-    },
-    "types": "./dist/types/main.d.ts",
-    "version": "0.0.0",
+    "types": "./dist/index.d.ts",
     "scripts": {
         "build": "tsup src/index.ts --format esm,cjs --dts --external react",
         "dev": "tsup src/index.ts --format esm,cjs --watch --dts --external react",
@@ -44,5 +42,13 @@
         "tsup": "^6.0.1",
         "typescript": "^4.7.2",
         "vitest": "^0.13.1"
-    }
+    },
+    "sideEffects": false,
+    "keywords": [
+        "react",
+        "swr",
+        "fetcher",
+        "query",
+        "simple"
+    ]
 }
