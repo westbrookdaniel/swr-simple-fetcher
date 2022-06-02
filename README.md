@@ -2,6 +2,14 @@
 
 A simple fetcher for [swr](https://swr.vercel.app/).
 
+Install:
+
+```sh
+npm install swr-simple-fetcher
+# or
+yarn add swr-simple-fetcher
+```
+
 Simple usage:
 
 ```tsx
