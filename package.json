@@ -1,6 +1,6 @@
 {
     "name": "swr-simple-fetcher",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Daniel Westbrook <westy12dan@gmail.com>",
     "description": "A simple fetcher for swr",
     "repository": {
